@@ -1,0 +1,43 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background: linear-gradient(to bottom, deepink, pink);
+}
+
+div .navbar-brand {
+    font-family: 'Comic Sans MS';
+}
+
+div .nav-item {
+    font-family: 'Comic Sans MS';
+    font-size: 15px;
+    letter-spacing: 5px;
+    border: 1px solid black;
+    margin-left: 15px;
+    background-color: pink;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+    div .nav-item:hover {
+        background-color: deeppink;
+    }
